@@ -16,17 +16,17 @@ const CarItem = () => {
       <img
         src={f}
         alt=""
-        className="siImg"
+        className="sImg"
       />
       <div className="siDesc">
         <h1 className="siTitle">Sedan</h1>
         <span className="siDistance">Book Hasslefree Tickets</span>
-        <span className="siTaxiOp">Starting from: $60</span>
+        <span className="siTaxiOp">Starting from: 60Rs</span>
         <span className="siSubtitle">
         Ooty to Nagpur
         </span>
         <span className="siFeatures">
-        Book with Indigo to have a good experience 
+        Book with SIT Travel Agency to have a good experience 
         </span>
         <span className="siCancelOp"> Cancellation Available</span>
         <span className="siCancelOpSubtitle">
@@ -39,7 +39,7 @@ const CarItem = () => {
           <button>8.9</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">$112</span>
+          <span className="siPrice">112Rs</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>
@@ -50,17 +50,17 @@ const CarItem = () => {
 <img
   src={a}
   alt=""
-  className="siImg"
+  className="sImg"
 />
 <div className="siDesc">
   <h1 className="siTitle">BMW</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 600Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -73,7 +73,7 @@ const CarItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1100Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -84,17 +84,17 @@ const CarItem = () => {
 <img
   src={b}
   alt=""
-  className="siImg"
+  className="sImg"
 />
 <div className="siDesc">
   <h1 className="siTitle">SUV</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 160Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -107,7 +107,7 @@ const CarItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">250Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -117,17 +117,17 @@ const CarItem = () => {
 <img
   src={c}
   alt=""
-  className="siImg"
+  className="sImg"
 />
 <div className="siDesc">
   <h1 className="siTitle">CNG</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 60Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -140,7 +140,7 @@ const CarItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">112Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -151,17 +151,17 @@ const CarItem = () => {
 <img
   src={d}
   alt=""
-  className="siImg"
+  className="sImg"
 />
 <div className="siDesc">
   <h1 className="siTitle">Sports</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 1260Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -174,7 +174,7 @@ const CarItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1500Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -185,17 +185,17 @@ const CarItem = () => {
 <img
   src={a}
   alt=""
-  className="siImg"
+  className="sImg"
 />
 <div className="siDesc">
   <h1 className="siTitle">Family</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 60Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agencyto have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -208,7 +208,7 @@ const CarItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">112Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>

@@ -3,9 +3,22 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.img-box{
+    transition: 0.3s ease-in-out;
+}
+.img-box img:hover{
+    box-shadow: 4px 4px 15px 0.3px rgb(135, 7, 255);
+}
+.img-box:hover{
+    transform: scale(1.1);
+    
+}
 .img-box img{
     height: 350px;
-    width: 400px;
+    width: 410px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+
 }   
 .searchItem{
     border: none;
@@ -13,18 +26,21 @@
 }
 
 .searchItem p{
+    border-radius: 7px;
     position: absolute;
-    width: 95%;
+    width: 91%;
     height: 150px;
-    margin-top: 199px;
+    margin-top: 215px;
     text-align: center;
     color: aliceblue;
     background-color: rgba(20, 48, 148, 0.534);
-    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
     font-weight:500;
 }
 .searchItem:hover p{
-    visibility: visible;
+    opacity: 1;
+    
 }
 @media (max-width:768px) {
     .searchItem p{

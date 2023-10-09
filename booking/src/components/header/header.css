@@ -34,14 +34,16 @@
     gap: 10px;
     transition: 0.3s ease-in-out;
     height: 30px;
+    border-radius: 20px;
+
   }
 
 
 
   .headerListItem:hover{
-    border: 1px solid black;
     padding:5px;
     border-radius: 20px;
+    box-shadow: 0px 0px 7px 0.5px rgb(53, 31, 255);
   }
   .hi{
     display: flex;
@@ -72,6 +74,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
+    
   }
 /* Media query for smaller screens */
 

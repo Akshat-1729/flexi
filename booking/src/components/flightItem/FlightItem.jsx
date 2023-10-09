@@ -21,12 +21,12 @@ const FlightItem = () => {
       <div className="siDesc">
         <h1 className="siTitle">Indigo Airlines</h1>
         <span className="siDistance">Book Hasslefree Tickets</span>
-        <span className="siTaxiOp">Starting from: $60</span>
+        <span className="siTaxiOp">Starting from: 3060Rs</span>
         <span className="siSubtitle">
         Ooty to Nagpur
         </span>
         <span className="siFeatures">
-        Book with Indigo to have a good experience 
+        Book with SIT Travel Agency to have a good experience 
         </span>
         <span className="siCancelOp"> Cancellation Available</span>
         <span className="siCancelOpSubtitle">
@@ -39,7 +39,7 @@ const FlightItem = () => {
           <button>8.9</button>
         </div>
         <div className="siDetailTexts">
-          <span className="siPrice">$112</span>
+          <span className="siPrice">5000Rs</span>
           <span className="siTaxOp">Includes taxes and fees</span>
           <button className="siCheckButton">See availability</button>
         </div>
@@ -56,12 +56,12 @@ const FlightItem = () => {
 <div className="siDesc">
   <h1 className="siTitle">SpiceJet Airlines</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 1065Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with SpiceJet to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -74,7 +74,7 @@ const FlightItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1212Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -91,12 +91,12 @@ const FlightItem = () => {
 <div className="siDesc">
   <h1 className="siTitle">AirAsia Airlines</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 1660Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with AirAsia to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -109,7 +109,7 @@ const FlightItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">2000Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -122,14 +122,14 @@ const FlightItem = () => {
   className="siImg"
 />
 <div className="siDesc">
-  <h1 className="siTitle">Indigo Airlines</h1>
+  <h1 className="siTitle">Akasa Airlines</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 600Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -142,7 +142,7 @@ const FlightItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1000Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -156,14 +156,14 @@ const FlightItem = () => {
   className="siImg"
 />
 <div className="siDesc">
-  <h1 className="siTitle">Indigo Airlines</h1>
+  <h1 className="siTitle">Vistara Airlines</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 1100Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -176,7 +176,7 @@ const FlightItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1500Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>
@@ -190,14 +190,14 @@ const FlightItem = () => {
   className="siImg"
 />
 <div className="siDesc">
-  <h1 className="siTitle">Indigo Airlines</h1>
+  <h1 className="siTitle">Air India Airlines</h1>
   <span className="siDistance">Book Hasslefree Tickets</span>
-  <span className="siTaxiOp">Starting from: $60</span>
+  <span className="siTaxiOp">Starting from: 1060Rs</span>
   <span className="siSubtitle">
   Ooty to Nagpur
   </span>
   <span className="siFeatures">
-  Book with Indigo to have a good experience 
+  Book with SIT Travel Agency to have a good experience 
   </span>
   <span className="siCancelOp"> Cancellation Available</span>
   <span className="siCancelOpSubtitle">
@@ -210,7 +210,7 @@ const FlightItem = () => {
     <button>8.9</button>
   </div>
   <div className="siDetailTexts">
-    <span className="siPrice">$112</span>
+    <span className="siPrice">1112Rs</span>
     <span className="siTaxOp">Includes taxes and fees</span>
     <button className="siCheckButton">See availability</button>
   </div>

@@ -21,6 +21,8 @@ import Resort from "./pages/resort/Resort";
 import Villa from "./pages/villa/Villa";
 import Cabin from "./pages/cabin/Cabin";
 import Radisson from "./pages/radisson/Radisson";
+import Novotel from "./pages/novotel/Novotel";
+import Taj from "./pages/taj/Taj";
 function App() {
   const handleRouteError = (error) => {
     // Handle the error gracefully (e.g., display an error message)
@@ -47,6 +49,8 @@ function App() {
         <Route path="/villa" element={<Villa/>} />
         <Route path="/cabin" element={<Cabin/>} />
         <Route path="/radisson" element={<Radisson/>} />
+        <Route path="/novotel" element={<Novotel/>} />
+        <Route path="/taj" element={<Taj/>} />
         
         {/* Handle 404 Not Found errors */}
         <Route path="*" element={<div>Page Not Found</div>} />

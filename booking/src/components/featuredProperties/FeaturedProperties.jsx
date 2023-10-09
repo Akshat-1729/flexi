@@ -15,14 +15,14 @@ const FeaturedProperties = () => {
           </a>
           <span className="fpName">Radisson Blu</span>
           <span className="fpCity">Mumbai</span>
-          <span className="fpPrice">Starting from 4000 rs</span>
+          <span className="fpPrice">Starting from 7000 rs</span>
           <div className="fpRating">
             <button>8.9</button>
             <span>Excellent</span>
           </div>
         </div>
         <div className="fpItem">
-          <a href="/resort">
+          <a href="/taj">
           <img
             src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
             alt=""
@@ -30,22 +30,22 @@ const FeaturedProperties = () => {
           />
           </a>
           <span className="fpName">Hotel Taj</span>
-          <span className="fpCity">Srinagar</span>
-          <span className="fpPrice">Starting from 2000Rs</span>
+          <span className="fpCity">Mumbai</span>
+          <span className="fpPrice">Starting from 6000Rs</span>
           <div className="fpRating">
             <button>9.3</button>
             <span>Exceptional</span>
           </div>
         </div>
         <div className="fpItem">
-          <a href="/resort">
+          <a href="/novotel">
           <img
             src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1"
             alt=""
             className="fpImg"
           />
           </a>
-          <span className="fpName">Hotel Riverdale</span>
+          <span className="fpName">Hotel Novotel</span>
           <span className="fpCity">Delhi</span>
           <span className="fpPrice">Starting from 6000Rs</span>
           <div className="fpRating">
@@ -62,7 +62,7 @@ const FeaturedProperties = () => {
           />
           
           </a>
-          <span className="fpName">Myths Garden Inn</span>
+          <span className="fpName">Hayat Residency</span>
           <span className="fpCity">Kerela</span>
           <span className="fpPrice">Starting from 3000Rs</span>
           <div className="fpRating">
