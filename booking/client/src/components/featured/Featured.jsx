@@ -2,11 +2,16 @@ import "./featured.css";
 import vizag from "../../images/v.jpg"
 import ooty from "../../images/o.jpg"
 import manali from "../../images/m.jpg"
+import useFetch from "../../hooks/useFetch";
 
 const Featured = () => {
+
+  const {data, loading, error} = useFetch("/hotels/countByCity?cities=berlin,madrid,london")
+
+
   return (
     <div className="featured">
-      <div className="featuredItem">
+      {loading ? ("Loading Please Wait") : (<><div className="featuredItem">
         <a href="/destination/ooty">
         <img
           src={ooty}
@@ -35,7 +40,7 @@ const Featured = () => {
         />
         </a>
     
-      </div>
+      </div></>)}
     </div>
   );
 };
