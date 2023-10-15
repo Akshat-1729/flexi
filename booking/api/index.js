@@ -1,4 +1,4 @@
-import express from "express";
+import express from "express";    
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoute from "./routes/auth.js";
@@ -7,11 +7,11 @@ import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-
+ 
 const app=express()
 dotenv.config()
-const connect= async ()=>
-{
+const connect= async ()=>   
+{ 
 try {
     await mongoose.connect(process.env.MONGO);
     console.log("Connected to MongoDB.");
@@ -22,11 +22,11 @@ try {
 mongoose.connection.on("disconnected", () => {
   console.log("mongoDB disconnected!");
 });
-
-
+ 
+ 
 //middleware
 app.use(cors())
-app.use(cookieParser())
+app.use(cookieParser())  
 
 
 app.use(express.json());

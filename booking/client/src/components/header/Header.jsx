@@ -5,17 +5,20 @@ import {
   faPlane,
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+import { useContext, useState } from "react";
 import { DateRange } from "react-date-range";
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import "./header.css";
+import { SearchContext } from "../../context/SearchContext";
 import { format } from "date-fns";
 
 const Header = ({ type }) => {
+  const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] = useState(false);
-  const [date, setDate] = useState([
+  const [dates, setDate] = useState([
     {
       startDate: new Date(),
       endDate: new Date(),
@@ -28,6 +31,7 @@ const Header = ({ type }) => {
     children: 0,
     room: 1,
   });
+  const navigate = useNavigate();
 
   const handleOption = (name, operation) => {
     setOptions((prev) => {
@@ -37,6 +41,14 @@ const Header = ({ type }) => {
       };
     });
   };
+
+  const { dispatch } = useContext(SearchContext);
+
+  const handleSearch = () => { 
+    dispatch({ type: "NEW_SEARCH", payload: { destination, dates, options } });
+    navigate("/hotels", { state: { destination, dates, options } });
+  };
+  
 
   return (
     <div className="header">
@@ -86,9 +98,7 @@ const Header = ({ type }) => {
               Get rewarded for your travels - unlock instant savings of 10% or
               more with a free SIT Travel account
             </p>
-            <button className="headerBtn">
-            <a href="/register" style={{ textDecoration: 'none' }}>Sign Up / Register</a>
-            </button>
+            <button className="headerBtn">Sign in / Register</button>
             <div className="headerSearch d-flex justify-content-between align-items-center p-3">
   <div className="headerSearchItem flex-grow-1 border-end">
     <FontAwesomeIcon icon={faBed} className="headerIcon me-2" />
@@ -96,6 +106,7 @@ const Header = ({ type }) => {
       type="text"
       placeholder="Where are you going?"
       className="form-control headerSearchInput"
+      onChange={(e) => setDestination(e.target.value)}
     />
   </div>
   <div className="headerSearchItem flex-grow-1 border-end">
@@ -104,8 +115,8 @@ const Header = ({ type }) => {
       onClick={() => setOpenDate(!openDate)}
       className="headerSearchText"
     >
-      {`${format(date[0].startDate, "MM/dd/yyyy")} to ${format(
-        date[0].endDate,
+      {`${format(dates[0].startDate, "MM/dd/yyyy")} to ${format(
+        dates[0].endDate,
         "MM/dd/yyyy"
       )}`}
     </span>
@@ -114,7 +125,7 @@ const Header = ({ type }) => {
         editableDateInputs={true}
         onChange={(item) => setDate([item.selection])}
         moveRangeOnFirstSelection={false}
-        ranges={date}
+        ranges={dates}
         className="date"
       />
     )}
@@ -190,9 +201,11 @@ const Header = ({ type }) => {
     )}
   </div>
   <div className="headerSearchItem flex-grow-0">
-    <button className="headerBtn">Search</button>
+  <button className="headerBtn" onClick={handleSearch}>
+                  Search
+                </button>
   </div>
-</div>
+  </div>
 
           </>
         )}

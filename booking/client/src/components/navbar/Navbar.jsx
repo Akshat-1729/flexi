@@ -1,41 +1,24 @@
 import "./navbar.css";
-
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthContext";
 const Navbar = () => {
+  const { user } = useContext(AuthContext);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-custom">
-      <div className="container">
-        <a className="navbar-brand" href="/">
-          SIT Travel Agency
-        </a>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a href="/register" className="nav-link">
-                <button className="navButton">Register</button>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/login" className="nav-link">
-                <button className="navButton">Login</button>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div className="navbar">
+      <div className="navContainer">
+        <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <span className="logo">lamabooking</span>
+        </Link>
+        {user ? user.username : (
+          <div className="navItems">
+            <button className="navButton">Register</button>
+            <button className="navButton">Login</button>
+          </div>
+        )}
       </div>
-    </nav>
+    </div>
   );
 };
 

@@ -1,65 +1,27 @@
-/* Navbar.css */
-
-/* Navbar background color and font styles */
-.navbar-custom {
-  background-color: #c2f4f5;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
 }
 
-/* Customize the container width to maintain the same size */
-.container {
+.navContainer{
+  width: 100%;
   max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Align and style the brand/logo */
-.navbar-brand {
-  margin-left: 20px;
-  color: #0071c2;
-  text-decoration: none;
+.logo{
+  font-weight: 500;
 }
 
-/* Style the navigation items */
-.navbar-nav {
-  margin-left: auto;
-}
-
-.nav-link {
-  color: #0071c2;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
-
-/* Style the Register and Login buttons */
-.navButton {
+.navButton{
   margin-left: 20px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #ffffff; /* Set text color to black */
-  background: #0071c2;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* Responsive styles */
-@media (max-width: 991px) {
-  /* Reduce the font size and spacing for small screens */
-  .navbar-custom {
-    font-size: 0.9rem;
-  }
-
-  .navbar-brand {
-    margin-left: 10px;
-  }
-
-  .navbar-toggler-icon {
-    font-size: 1.2rem;
-  }
-
-  .nav-link {
-    margin-left: 10px;
-  }
+  color: #003580;
 }

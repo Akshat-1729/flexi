@@ -1,31 +1,32 @@
-.login-container {
+.login {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin: 50px auto;
-    width: 400px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px 2px rgba(110, 70, 243, 0.2);
+    justify-content: center;
   }
   
-  .login-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .login-form {
+  .lContainer {
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   
-  .form-group {
-    margin-bottom: 15px;
+  .lInput{
+    height: 30px;
+    padding: 10px;
   }
   
-  .form-group label {
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
     font-weight: bold;
-    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
   }
   
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
