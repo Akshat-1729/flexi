@@ -24,7 +24,7 @@ export const updateHotel = async (req, res, next) => {
     res.status(200).json(updatedHotel);
   } catch (err) {
     next(err);
-  }
+  } 
 };
 export const deleteHotel = async (req, res, next) => {
   try {
